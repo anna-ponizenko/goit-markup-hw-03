@@ -134,8 +134,9 @@ body {
 }
 
 .section {
-    padding: 120px 156px;
+    padding: 120px 0; 
 }
+
 
 /* HERO SECTION */
 
@@ -229,7 +230,7 @@ ul {
 }
 
 .vision {
-    padding-top: 120px;
+    padding: 120px;
 }
 
 .vision-list {
@@ -246,7 +247,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
    
     color: var(--title-text-color);
 }
@@ -261,6 +262,11 @@ ul {
     gap:var(--indent);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* TEAM CARDS section 3 */
 .team {
@@ -278,9 +284,7 @@ ul {
     flex-basis: calc((100% - (var(--indent) * (var(--items) - 1))) / var (--items));
     background-color: var(--white-bg-clr);
 }
-.team-img {
-    margin-bottom: 32px;
-}
+
 
 .team-card-list .title {
     font-weight: 500;
@@ -293,15 +297,17 @@ ul {
 }
 .team-card-list .text {
     text-align: center;
-    padding-bottom: 32px;
 }
 
+.team-text-set {
+    padding: 32px 0;
+}
 
 /*FOOTER*/
 
 footer {
     background-color: var(--dark-bg-clr);
-    padding: 100px 156px;
+    padding: 100px 0;
 }
 .logo-footer {
     font-family: 'Raleway', sans-serif;
